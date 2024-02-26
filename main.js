@@ -1,6 +1,6 @@
 var v = 1.12;
 var player = {
-    money: { red: 0, green: 0, blue: 0 },
+    money: { red: 999999999, green: 999999999, blue: 999999999 },
     pixels: { red: { max: 0, cur: 0 }, green: { max: 0, cur: 0 }, blue: { max: 0, cur: 0 }},
     level: { red: 0, green: 0, blue: [0,0,0,0]},
     unlock: false,
@@ -45,7 +45,7 @@ var PD = 0;
 var BPD = 0;
 var SR = 0;
 var SR5 = 0;
-var SpecPrice = [1, 1, 3, 5, 5, 7, 10, 30, 50, 75, 300, 500, 1500, 2500, 25000, 100000, 1e10, 1e13, 1e25, 1e35, 1e50];
+var SpecPrice = [1, 1, 3, 5, 5, 7, 10, 30, 50, 75, 300, 500, 1500, 2500, 25000, 100000, 1e2, 1e3, 1e4, 1e5, 1e6];
 
 function bar(n,r,g,b,elemid) {
     this.name = n;
